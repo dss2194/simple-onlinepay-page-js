@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+}
+
+input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+}
